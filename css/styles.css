@@ -1,0 +1,88 @@
+body {
+    background-color: #dfeff0;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #ad235d;
+    border-bottom: 2px solid #ad235d;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+h2 { 
+    font-style: italic;
+    font-weight: normal;
+    margin-bottom: 10px;
+    font-size: 2em;
+    color: #3498db;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 16px;
+    line-height: 1.5em;
+    font-size: 1.1em;
+}
+
+ol, ul {
+    padding-left: 20px;
+    margin-bottom: 16px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+a {
+    color: #7d9c9e;
+    text-decoration: none;
+    border-bottom: 1px solid #7d9c9e;  
+}
+
+a:hover {
+    color: #ad235e;
+    border-bottom-color: #ad235e;  
+}
+
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px;
+}
+
+
+.shark-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.shark-grid-item {
+    background-color: #34495e;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.shark-grid-item div {
+    font-family: 'Bungee', cursive;
+    color:white;
+    font-size: larger;
+}
+
+.shark-grid-item img {
+    width: 100%;
+    border-radius: 10px; 
+    max-width: 400px; 
+    margin: 0 auto; 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
